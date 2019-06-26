@@ -47,7 +47,7 @@ async def _(event):
             "`Private  Call Connected...`",
             "`Me: Hello Sir, Please Ban This Telegram Account.`",    
             "`Durov: May I Know Who Is This?`",
-            "`Me: Yo Brah, I Am` @r4v4n4",
+            "`Me: Yo Brah, I Am` @hackedyouagain",
             "`Durov: OMG!!! I Am FAN Of You Sir...\nI'll Make Sure That Guy Account Will Get Blocked Within 24Hrs.`",
             "`Me: Thanks, See You Later Brah.`",
             "`Durov: Please Don't Thank Sur, Telegram Is Your's. Just Gimme A Call When You Become Free.`",

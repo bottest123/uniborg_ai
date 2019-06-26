@@ -38,7 +38,7 @@ async def _(event):
 
         animation_chars = [
 
-            "https://github.com/ravana69/UniBorg",
+            "https://github.com/bottest123/UniBorg",
 
             "https://github.com/spechide/UniBorg"
         ]

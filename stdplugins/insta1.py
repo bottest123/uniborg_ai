@@ -5,6 +5,8 @@
 import os
 import requests
 import json
+from telethon import *
+from uniborg import *
 
 @borg.on(events.NewMessage(pattern=r".ig (.*)", incoming=True))
 async def _(event):

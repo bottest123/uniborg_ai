@@ -31,8 +31,9 @@ class Config(object):
     HASH_TO_TORRENT_API = os.environ.get("HASH_TO_TORRENT_API", "https://example.com/torrent/{}");
     # This is required for the @telegraph functionality.
     TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "UniBorg")
-    # Get a Free API Key from OCR.Space
+    # Get Api key from @hackedyouagain
     apikey = os.environ.get("apikey", None)
+    #Get Api key from ocr.space
     OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
     # Send .get_id in any group with all your administration bots (added)
     G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -100123456789))

@@ -14,7 +14,7 @@ async def _(event):
     sample_url = "https://rest.farzain.com/api/ig_profile.php?id={}&apikey={}"
     input_str = event.pattern_match.group(1)
     async with aiohttp.ClientSession() as session:
-        response_api_zero = await session.get(sample_url.format(input_str, Config.apikey))
+        response_api_zero = await session.get(sample_url.format(input_str, Config.rapikey))
     response_api = await response_api_zero.json()
     if response_api["cod"] == 200:
         await event.edit(
